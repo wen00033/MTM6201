@@ -1,0 +1,16 @@
+body {
+    background-color: azure;
+    box-sizing: border-box;
+}
+img {
+    height: 450px;
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+} 
+
+
